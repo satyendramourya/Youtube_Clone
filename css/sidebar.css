@@ -12,6 +12,20 @@
     position: fixed;
 }
 
+@media (max-width : 531px){
+    .sidebar {
+        visibility: hidden;
+    }
+    body {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .Search-button{
+        width: auto;
+        margin-left: -3px;
+    }
+}
+
 .sidebar-link {
     height: 76px;
     display: flex;
