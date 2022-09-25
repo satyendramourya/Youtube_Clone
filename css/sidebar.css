@@ -13,7 +13,7 @@
 }
 
 @media (max-width : 531px){
-    .sidebar {
+    .sidebar , .right-section {
         visibility: hidden;
     }
     body {
@@ -24,6 +24,7 @@
         width: auto;
         margin-left: -3px;
     }
+    
 }
 
 .sidebar-link {
